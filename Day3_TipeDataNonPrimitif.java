@@ -8,23 +8,23 @@ package day3_tipedatanonprimitif;
  *
  * @author HP
  */
-public class Day3_TipeDataNonPrimitif {
+public class Day3__TipeDataNonPrimitif {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
     String nama= "Serli";
-    int[] prima = new int[10]; //sebuah array yang memuat 10 integer
-    int A =1; int B=2; int C =3; int D=4;
-    byte datasiswa = 26;
-    int usia = 17;
-    float nilai= 9.5f;
-    double nilai1= 60;
-    long tinggi= 12345;
-    short umur= 27;
-    char nilai2='B';
-    boolean hasilnya= true;
+    Float S = 54.8F;
+    Character nilai = 'B';
+    Short usia = 16;
+    Double  D = 2.6;
+    Byte sl = 28;
+    Integer Tn = 41;
+    Long Tinggi =164L;
+    Boolean Sl= true;
+    
+    
     
     }
     }
