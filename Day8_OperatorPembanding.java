@@ -8,7 +8,7 @@ package day8_operatorpenugasan;
  *
  * @author HP
  */
-public class Day8_OperatorPenugasan {
+public class Day8_OperatorPembanding {
 
     /**
      * @param args the command line arguments
