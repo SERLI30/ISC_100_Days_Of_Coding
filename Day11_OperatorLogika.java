@@ -22,9 +22,9 @@ public class Day11_OperatorLogika {
     hasil = serli && serli1;
         System.out.println("serli && serli1: " + hasil);
     hasil = serli || serli;
-        System.out.println("serli && serli: " + hasil);
+        System.out.println("serli || serli: " + hasil);
     hasil = serli || serli1;
-        System.out.println("serli || serli1: " + hasil);
+        System.out.println("serli1 || serli1: " + hasil);
     hasil = !serli;
         System.out.println("!serli: " + hasil);
     hasil = !serli1;
