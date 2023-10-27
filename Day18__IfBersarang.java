@@ -23,6 +23,7 @@ public class Day18__IfBersarang {
             System.out.println("dewasa");
         } else {
             if(usia >= 15){
+                System.out.println("remaja");
         }else{
                 System.out.println("anak-anak");
             }
