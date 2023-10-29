@@ -39,6 +39,7 @@ public class TUGAS {
             System.out.println("x lebih besar dari y");
         }else{
             System.out.println("x tidak lebih besar/kecil dari y");
+            
         double pangkat=Math.pow(x, y);
             System.out.println("hasil dari" + x + "pangkat" + y + "adalah" + pangkat);
         double ratarata = (x + y) /2.0; 
