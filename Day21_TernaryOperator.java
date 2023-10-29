@@ -17,7 +17,7 @@ public class Day21_TernaryOperator {
        int nomor1 = 7, nomor2 = 20, maksimal;
         System.out.println("nomor pertama: " + nomor1);
         System.out.println("nomor kedua: " + nomor2);
-        maksimal = (nomor1 > nomor2) ? nomor1 : nomor2;
+        maksimal = (nomor1 > nomor2)? nomor1 : nomor2;
         System.out.println("maksimalnya adalah: " + maksimal);
     }
     
