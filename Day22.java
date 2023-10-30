@@ -20,7 +20,7 @@ public class Day22 {
         System.out.println("masukkan angka: ");
         int angka = serli.nextInt();
         int hasil = angka % 5;
-        String kondisi = hasil == 0 ? "adalah bilangan genap" : "adalah bilangan gan20jil";
+        String kondisi = hasil == 0 + angka ? "adalah bilangan genap" : "adalah bilangan ganjil";
         System.out.println(kondisi);
     }
     }
