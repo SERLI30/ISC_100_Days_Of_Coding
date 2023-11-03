@@ -1,0 +1,28 @@
+
+package livecoding;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author HP
+ */
+public class LiveCoding {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Scanner serli = new Scanner(System.in);
+        System.out.println("masukkan berapa banyak kata atau angka yang kamu mau ulang: ");
+        int banyak = serli.nextInt();
+        System.out.println("masukkan kata atau angka: ");
+        String kata = serli.next();
+        for(int i = 1; i <= banyak; i++){
+            System.out.println(kata);   
+           
+        }
+        
+    }
+    
+}
