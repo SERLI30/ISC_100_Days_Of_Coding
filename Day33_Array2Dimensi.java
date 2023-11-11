@@ -19,11 +19,11 @@ public class Day33_Array2Dimensi {
         {"D","E","F"},
         {"G","H","I"},
     };
-        for (int i = 0; i < 3; i++) {
-            for (int j = 0; j < 3; j++) {
+        for (int i = 0; i < 5; i++) {
+            for (int j = 0; j < 5; j++) {
                 System.out.println(huruf[i][j]+"");  
             }
-            System.out.println(); 
+            System.out.println("\n"); 
         }
     }
     
