@@ -2,13 +2,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package day34_loopingarraydenganforeach;
+package day35_loopingarraydenganforeach;
 
 /**
  *
  * @author HP
  */
-public class Day34_LoopingArraydenganForEach {
+public class Day35_LoopingArraydenganForEach {
 
     /**
      * @param args the command line arguments
