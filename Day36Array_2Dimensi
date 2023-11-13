@@ -1,0 +1,30 @@
+
+package day36_array2dimensi;
+
+
+class serli {
+    public static void main(String[] args) {
+      System.out.print("Masukkan jumlah baris: ");
+        int baris=serli.nextInt();
+        System.out.print("Masukkan jumlah kolom: ");
+        int kolom =serli.nextInt();
+        int [][] matriks = new int[baris][kolom];
+        for(int i = 0; i < baris; i++){
+            for(int j= 0; j< kolom; j++){
+                matriks[i][j]=serli.nextInt();
+            }
+            
+            }
+                for(int i = 0; i < baris; i++){
+           for(int j= 0; j < kolom; j++){
+               System.out.print(matriks[i][j] + " ");
+                }
+                    System.out.println();  
+        
+        
+        
+        
+        
+    }
+    
+}
