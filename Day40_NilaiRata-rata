@@ -1,0 +1,35 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package javaapplication88;
+
+import static java.lang.Integer.sum;
+
+
+/**
+ *
+ * @author HP
+ */
+public class JavaApplication88 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+    int a = 0;
+    int b = 100;
+    int sum = 0;
+    int hasil = 0;
+        for (int j = 0; j < b; j++) {
+           if(j % 2 != 0){
+               System.out.println(j);
+               hasil += j;
+           } else if (j < (b - 1)){
+            System.out.println(" ");
+           
+            sum = hasil;
+        }
+           int avg = sum / sum;
+            System.out.println("jadi nilai rata-ratanya adalah: " + sum +a + avg);
+        }}}
