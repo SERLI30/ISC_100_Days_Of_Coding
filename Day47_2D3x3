@@ -1,0 +1,37 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package javaapplication103;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author HP
+ */
+public class JavaApplication103 {
+
+    public static void main(String[] args) {
+    int [][]array2D= new int[3][3];
+    Scanner serli = new Scanner(System.in);
+        System.out.println("masukkan array 2D");
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                System.out.print("baris "+(i)+" kolom "+(j)+":");
+                array2D[i][j]=serli.nextInt();
+                
+            }
+            
+        }
+        System.out.println("HASIL Array 2D: ");
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                System.out.print(array2D[i][j]+" ");
+                
+            }
+            System.out.println();
+        }
+    }
+    
+}
