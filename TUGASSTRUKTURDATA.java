@@ -52,13 +52,14 @@ public class TUGASSTRUKTURDATA {
         booleana [4]=true;
         for (boolean nilaig:booleana){
             System.out.println(nilaig);
+
             
         }
             
         }
     
             
-        }
+        
             
         
             
